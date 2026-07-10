@@ -1,0 +1,14 @@
+# 회의록 수신자 관리 (템플릿)
+# 이 파일을 복사해 recipients.yaml 로 만들고 실제 주소를 채우세요.
+# recipients.yaml 은 개인정보가 담기므로 .gitignore 로 제외됩니다.
+
+# 본인 테스트 주소 — 최초 발송은 여기로만
+test_recipient: your_email@example.com
+
+# 실제 팀원 (이름 email)
+teams:
+  default:
+    - name: 홍길동
+      email: member1@example.com
+    - name: 김철수
+      email: member2@example.com

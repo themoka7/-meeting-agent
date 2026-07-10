@@ -1,0 +1,30 @@
+# ===== 비밀정보 (절대 커밋 금지) =====
+.env
+*.env
+!*.env.example
+
+# ===== 개인정보: 실제 수신자 목록 (템플릿만 커밋) =====
+config/recipients.yaml
+!config/recipients.example.yaml
+
+# ===== 민감 데이터: 녹취록 원본 =====
+transcripts/
+*_회의.txt
+
+# ===== 산출물: 생성된 회의록 / 발송 로그 =====
+outputs/
+*.log
+send_log.txt
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== OS / 편집기 =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
